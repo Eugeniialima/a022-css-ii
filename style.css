@@ -1,24 +1,69 @@
-header{
-    border-bottom: 1px solid black;
-  }
-  
-  main{
-    width: 800px;
-  }
-  
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px dashed black;
+  text-align: center;
+background-color: rgb(236, 140, 236);
+}
+
+h3 {
+  color: rgb(46, 134, 189);
+}
+
+
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+aside {
+  width: 170px;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  border-radius: 15px;
+  background-color:rgb(236, 140, 236);
+ 
+
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+
+
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: serif;
+  border-radius: 15px;
+  padding: 2px;
+  /* transition: all 0.5s */
+}
+
+/* button :hover {
+  background-color: rgb(245, 211, 211);
+  color: rgb(140, 58, 167);
+  transition: all 0.5s;
+} */
+
+button:active {
+  background-color: whitesmoke;
+  color: black
+}
+
+aside:active {
+  background-color: aliceblue;
+  color: black;
+}
